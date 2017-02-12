@@ -17,20 +17,7 @@ At that time this draft would be moved to `COMPLETED`.
 
 ## 2. Example
 
-This is an example for writing JS code `module.exports` when performing an ES import.
-
-```javascript
-// es.js
-import foo from './cjs.js';
-foo(); // 2
-
-import * as bar from './cjs.js';
-bar.name; // 'two'
-bar.default(); // 2
-bar(); // throws, bar is not a function
-```
-
-------
+This is an example for writing JS code `app.js` for the JS course
 
 Given:
 
