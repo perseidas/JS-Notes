@@ -9,7 +9,10 @@ At that time this draft would be moved to `COMPLETED`.
 
 ---
 
-## 1. Purpose
+## 1. Lesson 1
+### a. Notes
+
+These are the notes of this course.
 
 1. Make some notes about JS learning
 2. Allow for future referencing.
