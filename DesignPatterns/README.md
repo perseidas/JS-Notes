@@ -10,9 +10,24 @@ At that time this draft would be moved to `COMPLETED`.
 ---
 
 ## 1. Lesson 1
-### a. Notes
+### a. Scopes
 
-These are the notes of this course.
+For single programs running the whole code, we can consider these to have the 'global scope'.
+
+Lexical scoping refers to determining a variable's scope based solely on its position within the textual corpus of code.
+
+A new lexical scope is created each time you create a function definition.
+
+```javascript
+var hero = aHero(); // global scope
+var newSaga = function() {
+
+   // lexical scope
+
+}
+```
+Recall then to always make variables with the keyword `var` declared in the scope we want these variables to live on.
+
 
 1. Make some notes about JS learning
 2. Allow for future referencing.
