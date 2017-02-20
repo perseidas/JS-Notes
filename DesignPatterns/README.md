@@ -9,8 +9,7 @@ At that time this draft would be moved to `COMPLETED`.
 
 ---
 
-## 1. Lesson 1
-### a. Scopes
+## 1. Scopes
 
 For single programs running the whole code, we can consider these to have the 'global scope'.
 
@@ -26,6 +25,10 @@ var newSaga = function() {
 ```
 > Recall then to always make variables with the keyword `var` declared in the scope we want these variables to live on.
 
+### Lexical scopes vs. In-memory scopes
+
+In-memory scopes are the ones created when running the code (line by line) and are not the same as lexical scopes.
+
 > For each lexical scope there may be many in-memory scopes created during execution, or there may be none (in-memory data stores)
 
 <font color="red">This is some text!</font>
@@ -34,13 +37,6 @@ var newSaga = function() {
 2. Allow for future referencing.
     * These will most likely be represented by code snippets.
 
-## 2. Example
+## 2. Closures
 
-This is an example for writing JS code `app.js` for the JS course
-
-Given:
-
-```javascript
-// knockout applyBinding
-ko.applyBindings(new ViewModel());
-```
+continue here...
