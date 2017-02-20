@@ -21,13 +21,14 @@ A new lexical scope is created each time you create a function definition.
 ```javascript
 var hero = aHero(); // global scope
 var newSaga = function() {
-
    // lexical scope
-
 }
 ```
-Recall then to always make variables with the keyword `var` declared in the scope we want these variables to live on.
+> Recall then to always make variables with the keyword `var` declared in the scope we want these variables to live on.
 
+> For each lexical scope there may be many in-memory scopes created during execution, or there may be none (in-memory data stores)
+
+<font color="red">This is some text!</font>
 
 1. Make some notes about JS learning
 2. Allow for future referencing.
@@ -42,28 +43,4 @@ Given:
 ```javascript
 // knockout applyBinding
 ko.applyBindings(new ViewModel());
-```
-
-and
-
-```javascript
-var ViewModel = function() {
-  var self = this;
-
-  this.catList = ko.observableArray([]);
-
-  initialCats.forEach(function(catItem){
-    self.catList.push( new Cat(catItem) );
-  });
-
-  this.currentCat = ko.observable( this.catList()[0] );
-
-  this.incrementCounter = function() {
-    self.currentCat().clickCount(self.currentCat().clickCount() + 1);
-  };
-
-  this.setCat = function(clickedCat) {
-    self.currentCat(clickedCat);    
-  }
-}
 ```
