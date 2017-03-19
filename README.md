@@ -51,9 +51,33 @@ var ViewModel = function() {
 ```
 ## 3. Pensum
 
+This is the list of Udacity courses I've taken to learn Web & App Dev
+
+1. Web development
+
+2. UX Design for Mobile Developers
+
+3. Developing Android Apps (not completed, requires too much Java knowledge)
+
+4. Mobile Web Development (to be continued...)
+
+5. Intro to iOS development with Swift ** (to be continued...)
+
+6. Intro to Progressive Web Apps ** (on course)
+
+7. Offline Web Apps ** (on course)
+
+8. Firebase in a weekend ** pending
+
 This is the list of Udacity courses I've taken to learn JS
 
-### 1. Web development
+1. JavaScript Basics *
 
+2. Object-Oriented JavaScript **
 
+3. JavaScript Testing **
+
+4. JavaScript Design Patterns ***
+
+5. JavaScript Promises *** pending
 
