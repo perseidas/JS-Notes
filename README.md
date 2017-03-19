@@ -49,3 +49,11 @@ var ViewModel = function() {
   }
 }
 ```
+## 3. Pensum
+
+This is the list of Udacity courses I've taken to learn JS
+
+### 1. Web development
+
+
+
